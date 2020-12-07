@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29802d8e-757c-4f54-a143-4887a759ad57" name="Default Changelist" comment="" />
+    <list default="true" id="29802d8e-757c-4f54-a143-4887a759ad57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Adapter1/BannerPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Adapter1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Adapter2/Banner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Adapter2/BannerPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Adapter2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Adapter2/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Adapter3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Adapter3/NewVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Adapter3/OldVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Adapter3/OldVersionTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Adapter3/VersionAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AdapterTest/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AdapterTest/FileProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AdapterTest/MyProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Adapter1/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter/BannerPrint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Adapter1/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter/Banner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter/Main.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +67,24 @@
     </option>
   </component>
   <component name="ProjectId" id="1lAtqBjq85TYjIrub4ycr4eQMnF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Adapter2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -65,13 +98,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Adapter.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.Adapter2.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Adapter.*" />
+          <option name="PATTERN" value="com.Adapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Adapter1.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Adapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +138,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Adapter1.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Adapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Adapter3.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Adapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -112,10 +187,22 @@
       <workItem from="1607051914345" duration="3315000" />
       <workItem from="1607132131083" duration="805000" />
       <workItem from="1607313123488" duration="6946000" />
+      <workItem from="1607347784313" duration="2964000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

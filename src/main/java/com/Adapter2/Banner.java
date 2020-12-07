@@ -1,6 +1,9 @@
-package com.Adapter;
+package com.Adapter2;
 
-
+/**
+ * Adaptee(被适配)
+ * 持有既定方法的角色
+ */
 public class Banner {
     private String str;
 
