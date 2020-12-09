@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29802d8e-757c-4f54-a143-4887a759ad57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/TemplatePattern/AbstractDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/TemplatePattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/TemplatePattern/StringDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoryPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoryPattern/framework/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoryPattern/framework/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoryPattern/idcard/IdCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoryPattern/idcard/IdCardFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/FactoryPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/ShapeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/TemplatePattern/AbstractDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TemplatePattern/AbstractDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/TemplatePattern/StringDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TemplatePattern/StringDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/FactoryPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/Square.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Adapter.Main" />
       <module name="DesignPattern" />
@@ -100,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.factoryPattern.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.factoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.IteratorPattern.Main" />
       <module name="DesignPattern" />
@@ -115,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -135,7 +165,8 @@
       <workItem from="1607132131083" duration="805000" />
       <workItem from="1607313123488" duration="6946000" />
       <workItem from="1607342112661" duration="406000" />
-      <workItem from="1607394924600" duration="2927000" />
+      <workItem from="1607394924600" duration="2980000" />
+      <workItem from="1607494836298" duration="7688000" />
     </task>
     <servers />
   </component>
