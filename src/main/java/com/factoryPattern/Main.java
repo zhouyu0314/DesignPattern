@@ -16,5 +16,6 @@ public class Main {
         card3.user();
         IdCardFactory idCardFactory = (IdCardFactory) factory;
         System.out.println(idCardFactory.getOwners());
+        System.out.println("测试");
     }
 }
