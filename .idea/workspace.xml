@@ -2,26 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29802d8e-757c-4f54-a143-4887a759ad57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoryPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoryPattern/framework/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoryPattern/framework/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoryPattern/idcard/IdCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/factoryPattern/idcard/IdCardFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prototype/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prototype/MessageBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prototype/UnderlinePen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prototype/framework/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prototype/framework/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/FactoryPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/ShapeFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TemplatePattern/AbstractDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TemplatePattern/AbstractDisplay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TemplatePattern/StringDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/TemplatePattern/StringDisplay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/FactoryPatternDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/ShapeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/factoryPattern/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/AbstractFactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/AbstractFactoryPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/Blue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/Blue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/ColorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/ColorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/FactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/FactoryProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/Green.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/Green.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/Red.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstractFactoryPattern/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abstractFactory/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter1/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter1/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter1/BannerPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter1/BannerPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter1/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter1/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter2/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter2/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter2/BannerPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter2/BannerPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter2/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter2/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter3/NewVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter3/NewVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter3/OldVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter3/OldVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter3/OldVersionTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter3/OldVersionTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Adapter3/VersionAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adapter3/VersionAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IteratorPattern/Aggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iterator/Aggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IteratorPattern/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iterator/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IteratorPattern/BookShelfIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iterator/BookShelfIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IteratorPattern/BookShelfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iterator/BookShelfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IteratorPattern/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iterator/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IteratorPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iterator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TemplatePattern/AbstractDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/template/AbstractDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TemplatePattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/template/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TemplatePattern/StringDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/template/StringDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/framework/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factory/framework/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/framework/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factory/framework/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/idcard/IdCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factory/idcard/IdCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factoryPattern/idcard/IdCardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factory/idcard/IdCardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/AbstractFactoryPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/Blue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/ColorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/FactoryProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/Green.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/Red.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstractFactoryPattern/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter1/Banner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter1/Banner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter1/BannerPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter1/BannerPrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter1/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter1/Print.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter2/Banner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter2/Banner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter2/BannerPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter2/BannerPrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter2/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter2/Print.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter3/NewVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter3/NewVersion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter3/OldVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter3/OldVersion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter3/OldVersionTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter3/OldVersionTarget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Adapter3/VersionAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Adapter3/VersionAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IteratorPattern/Aggregate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IteratorPattern/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IteratorPattern/BookShelfIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IteratorPattern/BookShelfs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IteratorPattern/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IteratorPattern/Main.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +113,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -64,11 +127,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1lAtqBjq85TYjIrub4ycr4eQMnF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
@@ -76,6 +140,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Adapter2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -89,39 +158,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Adapter.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.prototype.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.TemplatePattern.Main" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.TemplatePattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.factoryPattern.Main" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.factoryPattern.*" />
+          <option name="PATTERN" value="com.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +173,63 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.IteratorPattern.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.iterator.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.IteratorPattern.*" />
+          <option name="PATTERN" value="com.iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adapter2.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adapter1.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Adapter1.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Adapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Adapter3.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Adapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,8 +239,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -164,9 +260,8 @@
       <workItem from="1607051914345" duration="3315000" />
       <workItem from="1607132131083" duration="805000" />
       <workItem from="1607313123488" duration="6946000" />
-      <workItem from="1607342112661" duration="406000" />
-      <workItem from="1607394924600" duration="2980000" />
-      <workItem from="1607494836298" duration="7957000" />
+      <workItem from="1607347784313" duration="4079000" />
+      <workItem from="1607856837553" duration="2421000" />
     </task>
     <servers />
   </component>
